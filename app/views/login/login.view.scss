@@ -1,0 +1,91 @@
+@import "../../theme/variables";
+.login-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: hidden;
+    .left-section {
+        width: 30%;
+        background-image: url(img/photo.png);
+        background-size: cover;
+        height: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        color: $white;
+        position: relative;
+        .main-container {
+            padding: 70px 50px 70px 80px;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            position: absolute;
+            .header {
+                width: 100px;
+                font-size: 17px;
+                font-family: Plantin Std;
+            }
+            .main-title {
+                line-height: 40px;
+                margin-bottom: 0px;
+                font-size: 30px;
+                font-family: Plantin Std;
+            }
+            .main-content {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+            }
+            .content {
+                font-size: 14px;
+                line-height: 24px;
+            }
+            .footer {
+                text-align: right;
+                font-size: 16px;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                padding-right: 50px;
+                .content {
+                    font-size: 16px;
+                    opacity: 0.9;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .logo {
+                    height: 50px;
+                    line-height: 50px;
+                    padding-left: 10px;
+                    position: relative;
+                    img {
+                        top: 50%;
+                        transform: translateY(-50%);
+                        -webkit-transform: translateY(-50%);
+                        position: absolute;
+                    }
+                }
+            }
+        } 
+    }
+    .right-section {
+        width: 70%;
+        height: 100%;
+        padding: 200px;
+        position: relative;
+        .main-title {
+            font-size: 24px;
+        }
+        .footer {
+            color: $dim-gray;
+            position: absolute;
+            bottom: 90px;
+            right: 200px;
+            a {
+                color: $dim-gray;
+                text-decoration: underline;
+            }
+        }
+    }
+}

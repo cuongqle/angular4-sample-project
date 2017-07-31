@@ -1,0 +1,65 @@
+form {
+  .admission-title {
+    height: 40px;
+    color: #000000;
+    font-family: 'bertelsmann' !important;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .admission-title {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .admission-subtitle {
+    opacity: 0.4;
+    //font-weight: bold;
+    text-align: left;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 900;
+  }
+
+  .section-container {
+    border-bottom: 1px solid #9e9e9e;
+    clear: both;
+  }
+
+  .section-content{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  label {
+    color:#000000;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .select-wrapper input.select-dropdown {
+    color:#000000;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .required-field {
+    background-color: rgba(254, 202, 62, 0.09);
+    border: 1px solid #FECA3E;
+    border-radius: 2px;
+    padding: 0 5px;
+    label:not(.label-icon).active {
+      -webkit-transform: translateY(-200%);
+      transform: translateY(-200%);
+    }
+  }
+}
+
+.invalid {
+  .select-dropdown {
+    border-bottom: 1px solid #F44336!important;
+    box-shadow: 0 1px 0 0 #F44336!important;
+  }
+}

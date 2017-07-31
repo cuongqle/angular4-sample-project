@@ -1,0 +1,11 @@
+<div class="error-box" *ngIf="visible">
+    <div class="cover"></div>
+    <div class="header-error">¡Bienvenido/a!</div>
+    <div class="detail-error">Por favor, tómate un minuto para terminar de rellenar tu perfil de usuario, así como para aceptar los términos y condiciones legales propuestos por la Fundación Bertelsmann.</div>
+    <div class="button-error">
+        <a class="button-rounded waves-effect waves-light btn" style="padding:0px 45px 0px 20px" (click)="onGotit($event)">
+            <div class="button-text" >¡Entendido!<i class="material-icons combined-shape">keyboard_arrow_right</i>
+            </div>
+        </a>
+    </div>
+</div>

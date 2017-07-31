@@ -1,0 +1,22 @@
+<form [formGroup]="loginForm">
+    <div class="section center section-content">
+        <div class="row">
+            <div class="input-field col s12">
+                <input type="email" formControlName="username" required class="validate" [ngClass]="{'invalid' : (!!error || !userExist)}" (blur)="onCheckUser()">
+                <label [attr.data-error]="!userExist ? 'El usuario indicado no existe, contacte por favor con info@alianzafpdual.es' : 'Email incorrecto.'">Correo electrónico</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input type="password" formControlName="password" required class="validate" [ngClass]="{'invalid' : !!error}">
+                <label data-error="Contraseña incorrecto.">Contraseña</label>
+            </div>
+        </div>
+    </div>
+    <div class="section right">
+        <a class="button-rounded waves-effect waves-light btn" [ngClass]="{'disabled': !loginForm.valid}" style="padding:0px 45px 0px 20px" >
+            <div class="button-text" (click)="onLogin(loginForm.value)" [ngClass]="{'disabled': !loginForm.valid}">{{actionButtonName}}<i class="material-icons combined-shape">keyboard_arrow_right</i>
+            </div>
+        </a>
+    </div>
+</form>

@@ -1,0 +1,49 @@
+//$font-primary: Avenir, sans-serif;
+$page-background: #FFFFFF;
+
+//admission
+$button-admission-disabled-background: #EA3E4F;
+$button-admission-hover-background: #CC3544;
+
+$grayish-white: #d9d9d9;
+$deep-sky-blue: #0f49fc;
+$black: #000000;
+$sky-blue: #73c2fb;
+$black-10: rgba(0, 0, 0, 0.1);
+$black-70: rgba(0, 0, 0, 0.7);
+$c3c3c3: #c3c3c3;
+$f2f2f2: #f2f2f2;
+$error: #c33f48;
+$bluepurple-two: #6b04ff;
+
+$bluepurple: #5c04ff;
+$light-grey: #d8d8d8;
+$pinkish-grey: #bfbfbf;
+$warm-grey: #9c9c9c;
+$greyish-brown: #4a4a4a;
+$white: #ffffff;
+$dim-gray: #666666;
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
+.no-background {
+  background: none !important;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.full-height {
+  height: 100% !important;
+}

@@ -1,0 +1,67 @@
+@import "variables";
+
+.button-rounded {
+  height: 44px;
+  width: auto;
+  border-radius: 100px;
+  background-color: #EA3E4F;
+
+  &:hover {
+    background-color: $button-admission-hover-background !important;
+    color: #FFFFFF !important;
+  }
+}
+
+.btn.disabled,
+.btn-floating.disabled,
+.btn-large.disabled,
+.btn-flat.disabled,
+.btn:disabled,
+.btn-floating:disabled,
+.btn-large:disabled,
+.btn-flat:disabled,
+.btn[disabled],
+.btn-floating[disabled],
+.btn-large[disabled],
+.btn-flat[disabled] {
+  pointer-events: none;
+  background-color: $button-admission-disabled-background !important;
+  cursor: default;
+}
+
+.button-text {
+  height: 24px;
+  width: auto;
+  color: #FFFFFF;
+  font-family: 'bertelsmann' !important;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 10px;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+.button-text.disabled {
+  height: 24px;
+  width: auto;
+  color: #FFFFFF;
+  opacity: 0.3;
+  font-family: 'bertelsmann' !important;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 10px;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+.combined-shape {
+  height: 22px;
+  width: 22px;
+  opacity: 0.2;
+  font-size: 1rem;
+  margin-left: 10px;
+  border-radius: 100px;
+  background-color: #03101F;
+  vertical-align: text-bottom;
+  position: absolute;
+}

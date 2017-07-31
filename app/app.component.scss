@@ -1,0 +1,117 @@
+@import "theme/all";
+
+@font-face {
+  font-family: "bertelsmann";
+  src: url("../fonts/avenir/avenir-light-webfont.woff") format('woff')
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: $page-background;
+  font-family: 'bertelsmann' !important;
+  color: #000;
+}
+
+.lead-text {
+  height: 65px;
+  //width: 769px;
+  color: #000000;
+  font-family: 'bertelsmann' !important;
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 65px;
+}
+
+h1 {
+  height: 46px;
+  //width: 602px;
+  color: #000000;
+  font-family: 'bertelsmann' !important;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 46px;
+}
+
+h2 {
+  height: 40px;
+  //width: 502px;
+  color: #000000;
+  font-family: 'bertelsmann' !important;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+h3 {
+  height: 34px;
+  //width: 401px;
+  color: #000000;
+  font-family: 'bertelsmann' !important;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34px;
+}
+
+h4 {
+  height: 28px;
+  //width: 301px;
+  color: #000000;
+  font-family: 'bertelsmann' !important;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+h5 {
+  height: 24px;
+  //width: 238px;
+  color: #000000;
+  font-family: 'bertelsmann' !important;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+h6 {
+  height: 22px;
+  //width: 214px;
+  color: #000000;
+  font-family: 'bertelsmann' !important;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 22px;
+}
+
+.paragraph {
+  height: 380px;
+  //width: 769px;
+  color: #666666;
+  font-family: 'bertelsmann' !important;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.cover {
+  background-color: rgba(37,37,37,.75);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.input-field label:not(.label-icon).label-active {
+  font-size: 0.8rem!important;
+  -webkit-transform: translateY(-140%);
+  transform: translateY(-140%);
+  color: #9e9e9e !important;
+}
